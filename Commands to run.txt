@@ -1,0 +1,18 @@
+These are the commands that need to be run into terminal in order to run the project:
+
+1. cd C:\Users\Deepanshu Chauhan\ContactManagementSystem
+
+
+2. javac -cp "src\main\java;lib\*" -d target\classes src\main\java\com\contactmanager\model\Contact.java
+
+
+3. javac -cp "src\main\java;lib\*" -d target\classes src\main\java\com\contactmanager\dao\DatabaseConfig.java src\main\java\com\contactmanager\util\DatabaseConnection.java
+
+
+4. javac -cp "src\main\java;target\classes;lib\*" -d target\classes src\main\java\com\contactmanager\controller\ContactDAO.java
+
+
+5. javac -cp "src\main\java;target\classes;lib\*" -d target\classes src\main\java\com\contactmanager\view\ContactManagerGUI.java
+
+
+6. java -cp "target\classes;lib\*" com.contactmanager.view.ContactManagerGUI
